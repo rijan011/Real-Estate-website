@@ -39,7 +39,7 @@ npm run dev
 ## Architecture Overview
 
 ```
-┌─────────────┐      HTTP/REST      ┌─────────────┐      SQL       ┌─────────────┐
+┌─────────────┐      HTTP/REST     ┌─────────────┐      SQL       ┌─────────────┐
 │   React     │ ←────────────────→ │   Express   │ ←────────────→ │   SQLite    │
 │  (Client)   │    JWT Tokens      │   (Server)  │                │   (Data)    │
 └─────────────┘                    └─────────────┘                └─────────────┘
